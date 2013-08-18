@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{dda2ceca-f562-4eb3-9dd9-483b4092f6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface\HelperClasses">
+      <UniqueIdentifier>{b08f5b5e-56af-41d1-ad61-21b3f114d478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface\DataClasses">
+      <UniqueIdentifier>{a61b8455-a117-4493-8555-55109749c70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataClasses">
+      <UniqueIdentifier>{c8f97ee0-bb49-4ea0-8134-4c933e18668f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HelperClasses">
+      <UniqueIdentifier>{508d620b-7d8a-4f24-bc47-4242978eeb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AlgoClasses">
+      <UniqueIdentifier>{3a2ef746-89bd-4653-912d-77f8eefcacf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AlgoClasses">
+      <UniqueIdentifier>{f0966827-f3bb-4494-9321-458328354efb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DataClasses\Circle.cpp">
+      <Filter>Source Files\DataClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DataClasses\Arc.cpp">
+      <Filter>Source Files\DataClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DataClasses\Line.cpp">
+      <Filter>Source Files\DataClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DataClasses\Point.cpp">
+      <Filter>Source Files\DataClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HelperClasses\Helper.cpp">
+      <Filter>Source Files\HelperClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DataClasses\DxfContianer.cpp">
+      <Filter>Source Files\DataClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DataClasses\Layer.cpp">
+      <Filter>Source Files\DataClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AlgoClasses\Reader.cpp">
+      <Filter>Source Files\AlgoClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\AlgoClasses\Reader.h">
+      <Filter>Header Files\AlgoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\Arc.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\Circle.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\DataDefines.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\DataHeaders.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\DxfContianer.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\DXFExpo.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\IEntity.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\Layer.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\Line.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\DataClasses\Point.h">
+      <Filter>Header Files\Interface\DataClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Interface\HelperClasses\Helper.h">
+      <Filter>Header Files\Interface\HelperClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\DxfReaderClassDiagram.cd" />
+  </ItemGroup>
+</Project>

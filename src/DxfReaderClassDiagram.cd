@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="dxf::DxfContianer" Collapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACBAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>E:\Gyan-Drive\Projects\MyProjects\JackSparrow\JackSparrow\src\DataClasses\DxfContianer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dxf::IEntity" Collapsed="true">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAA=</HashCode>
+      <FileName>E:\Gyan-Drive\Projects\MyProjects\JackSparrow\JackSparrow\src\DataClasses\IEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dxf::Layer" Collapsed="true">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>E:\Gyan-Drive\Projects\MyProjects\JackSparrow\JackSparrow\src\DataClasses\Layer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dxf::Line" Collapsed="true">
+    <Position X="3.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAAAAgAAABAAA=</HashCode>
+      <FileName>E:\Gyan-Drive\Projects\MyProjects\JackSparrow\JackSparrow\src\DataClasses\Line.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dxf::Point" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>E:\Gyan-Drive\Projects\MyProjects\JackSparrow\JackSparrow\src\DataClasses\Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
